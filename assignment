@@ -1,0 +1,64 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+   <form action="customer_details_insert.php " encrypt="multipart/form-data" method="POST">
+       <table>
+           <tr>
+               <td colspan="2">customer_details</td>
+           </tr>
+           
+           <tr>
+               <td>cd_id</td>
+               <td><input type="text" name="cd_id" id="cd_id"></td>
+           </tr>
+           
+           <tr>
+               <td>cd_name</td>
+               <td><input type="text" name="cd_name" id="cd_name"></td>
+           </tr>
+           
+           <tr>
+               <td>cd_contact</td>
+               <td><input type="text" name="cd_contact" id="cd_contact"></td>
+           </tr>
+           
+           <tr>
+               <td>cd_email</td>
+               <td><input type="text" name="cd_email" id="cd_email"></td>
+           </tr>
+           
+           <tr>
+               <td>cd_address</td>
+               <td><textarea type="text" name="cd_address" id="cd_address"></textarea></td>
+           </tr>
+           
+           <tr>
+               <td>cd_username</td>
+               <td><input type="text" name="cd_username" id="cd_username"></td>
+           </tr>
+           
+           <tr>
+               <td>cd_password</td>
+               <td><input type="text" name="cd_password" id="cd_password"></td>
+           </tr>
+           
+           <tr>
+               <td>cd_date</td>
+               <td><input type="date" name="cd_date" id="cd_date"></td>
+           </tr>
+           
+           <tr>
+               <td colspan="2">
+                   <input type="submit" value="ADD">
+                   &nbsp;
+                   <input type="button" value="CANCEL">
+               </td>
+           </tr>
+       </table>
+   </form> 
+</body>
+</html>
